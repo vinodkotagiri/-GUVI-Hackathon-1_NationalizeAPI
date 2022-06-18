@@ -33,7 +33,7 @@ resultsContainer.setAttribute("class", "container results-div");
 
 //Set Values for the elements
 title.textContent = "Predict Nationality";
-description.innerHTML = "Give me a name<br> We will predict which nation you may be from";
+description.innerHTML = "Give us a name<br> We will predict which nation you may be from";
 startBtn.innerText = "Lets Go!";
 searchDescr.textContent = "Enter a name";
 searchBtn.innerText = "Predict Nationality!";
