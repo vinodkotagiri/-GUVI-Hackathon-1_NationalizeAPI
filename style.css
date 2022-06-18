@@ -17,6 +17,18 @@ body{
      background-color:var(--primary-bg-color);   
      color:var(--primary-color);
      font-family:'Poppins',sans-serif;
+     animation:fadeInAnimation ease 4s;
+     animation-iteration-count: 1;
+     animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+    
 }
 .title-wrapper{
     height:100vh;
@@ -29,7 +41,7 @@ body{
 #title{
     margin-top:auto;
     font-family:'Pacifico', cursive;
-    font-size:3rem;
+    font-size:2.5rem;
     background:linear-gradient(180deg,var(--secondary-bg-color),var(--primary-color));
     background-clip: text;
     -webkit-background-clip: text;
@@ -38,7 +50,7 @@ body{
     -webkit-text-fill-color: transparent;
 }
 #description{
-    margin-top:64px;
+    margin-top:32px;
     font-family:'Pacifico', cursive;
     font-size: 1.5rem;
     opacity: 0.5;
@@ -92,7 +104,7 @@ body{
 }
 #searchBtn{
     position:relative;
-    top:12%;
+    top:14%;
     background-color:var(--primary-bg-color);
     opacity:80%;
     color:var(--primary-color);
@@ -101,7 +113,7 @@ body{
 }
 .searched-name{
     position:relative;
-    top:16%;
+    top:18%;
 }
 .results-div{
     position:relative;
@@ -117,7 +129,7 @@ body{
     flex-wrap: wrap;
     padding:8px;
     gap:32px;
-    width:340px;
+    width:375px;
     height:200px;
     background-color:#fcde67;
     border:2px solid var(--primary-bg-color);
