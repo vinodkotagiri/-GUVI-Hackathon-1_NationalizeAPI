@@ -1,0 +1,141 @@
+/* Import custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+/* Define UI colors */
+:root{
+    --primary-bg-color:#fcde67;
+    --primary-color:#030E12;
+    --secondary-bg-color:#5BCCF6;
+    font-size:16px;
+}
+
+body{
+    box-sizing: border-box;
+     background-color:var(--primary-bg-color);   
+     color:var(--primary-color);
+     font-family:'Poppins',sans-serif;
+}
+.title-wrapper{
+    height:100vh;
+    text-align:center;
+    justify-content:center;
+    align-items: center;
+    padding:32px;
+}
+
+#title{
+    margin-top:auto;
+    font-family:'Pacifico', cursive;
+    font-size:3rem;
+    background:linear-gradient(180deg,var(--secondary-bg-color),var(--primary-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+#description{
+    margin-top:64px;
+    font-family:'Pacifico', cursive;
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
+
+#startBtn{
+    width:12rem;
+    margin-top:64px;
+    padding:16px;
+    background-color:var(--secondary-bg-color);
+    color:var(--primary-color);
+    font-weight: bold;
+    font-family:'Pacifico',cursive;
+}
+
+#mainSection{
+    height:100vh;
+    background-color:var(--secondary-bg-color);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchDescr{
+    position:relative;
+    top:5%;
+    font-size: 3rem;
+    background:linear-gradient(180deg,var(--secondary-bg-color),var(--primary-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+#searchField{
+    width:80%;
+    position:relative;
+    top:10%;
+    left:10%;
+    border-radius: 16px;
+    text-shadow: 0 0 50px blue,
+    0 0 50px blue,
+    0 0 50px blue,
+    0 0 50px blue,
+    0 0 50px blue,
+    0 0 50px blue,
+    0 0 50px blue,
+    0 0 50px blue,
+    0 0 50px blue,
+    0 0 50px blue;
+}
+#searchBtn{
+    position:relative;
+    top:12%;
+    background-color:var(--primary-bg-color);
+    opacity:80%;
+    color:var(--primary-color);
+    font-weight: bold;
+    border-radius: 16px;
+}
+.searched-name{
+    position:relative;
+    top:16%;
+}
+.results-div{
+    position:relative;
+    top:20%;
+    background-color:inherit;
+}
+
+.card{
+    margin-top: 16px;
+    justify-content:flex-start;
+    align-items: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:8px;
+    gap:32px;
+    width:340px;
+    height:200px;
+    background-color:#fcde67;
+    border:2px solid var(--primary-bg-color);
+    box-shadow:2px 4px 4px 4px lightblue;
+    border-radius: 16px;
+    
+}
+.country-img{
+    margin-top:4px;
+    width:120px;
+    height:90px;
+}
+#countryName{
+    margin-top:16px;
+    font-weight:bold;
+    color:var(--primary-color);
+}
+#probability{
+    font-weight:bold;
+    color:var(--primary-color);
+}
