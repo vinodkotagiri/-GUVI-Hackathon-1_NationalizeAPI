@@ -166,7 +166,7 @@ body{
     flex-wrap: wrap;
     padding:8px;
     gap:48px;
-    width:375px;
+    width:370px;
     height:200px;
     background-color:#fcde67;
     border:2px solid var(--primary-bg-color);
