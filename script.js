@@ -14,6 +14,7 @@ let resultsContainer = document.createElement("div");
 let outputRows = document.createElement("div");
 
 
+
 //Set Attributes for the created Elements
 titleWrapper.setAttribute("class", "title-wrapper container-fluid");
 title.setAttribute("id", "title");
@@ -39,6 +40,7 @@ searchDescr.textContent = "Enter a name";
 searchBtn.innerText = "Predict Nationality!";
 nameSearched.textContent="";
 
+//Append the elements hirerchy
 titleWrapper.append(title);
 titleWrapper.append(description);
 titleWrapper.append(linktoNext);
